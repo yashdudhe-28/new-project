@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bug Example</title>
+</head>
+<body>
+  <h2>Click the Button</h2>
+  <button id="myBtn">Click me</button>
+
+  <script>
+    // ❌ Bug: No function or action on button click
+    document.getElementById("myBtn").addEventListener("click", function() {
+      // Nothing happens here
+    });
+  </script>
+</body>
+</html>
